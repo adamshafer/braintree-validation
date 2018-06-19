@@ -121,7 +121,6 @@
 		}
 		
 		if (!hostedFieldsInstance._fields) {
-			console.error('hostedFieldsInstance._fields has no value!');
 			return;
 		}
 		
@@ -145,6 +144,7 @@
 				cvv: 'CVV',
 				expirationMonth: 'expiration month',
 				expirationYear: 'expiration year',
+				expirationDate: 'expiration date',
 				postalCode: 'postal code'
 			};
 		
